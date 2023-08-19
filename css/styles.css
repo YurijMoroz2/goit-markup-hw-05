@@ -776,7 +776,9 @@ textarea {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-
+.form-texterea {
+  margin-bottom: 16px;
+}
 .form-textarea-input {
   width: 100%;
   height: 120px;
