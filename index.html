@@ -372,10 +372,10 @@
             <!-- forma footer -->
             <div class="ff-box">
                 <p class="footform-txt">Subscribe</p>
-                <form class="form-footer" name="subscribe_form" autocomplete="off" novalidate>
+                <form class="form-footer" name="subscribe-form" autocomplete="off" novalidate>
 
-                    <label for="" class="">
-                        <input class="form-footer-input" type="email" name="subschribe-email" placeholder="E-mail">
+                    <label for="user-subschribe-email" class="form-footer-label"><input class="form-footer-input"
+                            type="email" id="user-subschribe-email" name="subschribe-email" placeholder="E-mail">
                     </label>
                     <button class="footform-btn" type="submit">Subscribe
                         <svg class="footform-btn-icon" width="24" height="24">
@@ -430,17 +430,17 @@
                     </div>
                 </div>
 
-                <div class="form-textarea">
-                    <label for="user-comment" class="form-label">Comment</label>
 
-                    <div class="input-wr">
-                        <textarea class="form-textarea-input" name="user-comment" id="user-comment" rows="5"
-                            placeholder="Text input"></textarea>
-                    </div>
+                <label for="user-comment" class="form-label">Comment</label>
+
+                <div>
+                    <textarea class="form-textarea-input" name="user-comment" id="user-comment" rows="5"
+                        placeholder="Text input"></textarea>
                 </div>
 
+
                 <div class="form-checkbox">
-                    <input class="policy-input visually-hidden" type="checkbox" name="user-agreement" id="user-privacy"
+                    <input class="policy-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
                         value="true" />
                     <label class="policy-txt" for="user-privacy">
                         <span class="checkbox-icon">
