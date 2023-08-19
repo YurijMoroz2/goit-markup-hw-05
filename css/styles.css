@@ -827,7 +827,7 @@ input[type='checkbox']:checked + label .checkbox-icon {
   left: 16px;
   position: absolute;
   top: 50%;
-  left: 12px;
+
   transform: translateY(-50%);
   cursor: pointer;
 }
